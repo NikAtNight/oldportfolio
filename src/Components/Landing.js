@@ -3,7 +3,9 @@ import React from 'react';
 const Landing = () => {
     return (
         <section className="page-container">
-            hello
+            <div className="content-container">
+                Hello
+            </div>
         </section>
     )
 }

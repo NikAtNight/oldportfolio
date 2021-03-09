@@ -45,11 +45,18 @@
 }
 
 .container {
-    max-width: 60vw;
+    max-width: 70vw;
     margin: 0 auto;
-    /* border: 1px solid black; */
 }
 
 .page-container {
     height: 100vh;
+}
+
+.content-container {
+    margin: 0 auto;
+    position: relative;
+    height:75%;
+    border: 1px solid black;
+    top:12.5%;
 }
