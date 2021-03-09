@@ -1,13 +1,74 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Navigation = () => {
     return (
-        <header>
-            <div>
-
+        <header className="nav">
+            <div className="nav-container">
+                <div className="nav-brand">
+                    <Link
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        className='scroll-links'
+                        activeClass='active-link'
+                    >
+                        <img src="" />
+                    </Link>
+                </div>
             </div>
-            <div>
-                
+            <div className="nav-container">
+                <ul className="nav-links">
+                    <li>
+                        <Link
+                            to="home"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='scroll-links'
+                            activeClass='active-link'
+                        >
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='scroll-links'
+                            activeClass='active-link'
+                        >
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="work"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='scroll-links'
+                            activeClass='some-active-class'
+                        >
+                            Work
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            duration={500}
+                            className='scroll-links'
+                            activeClass='some-active-class'
+                        >
+                            Contact
+                        </Link>
+                    </li>
+                </ul>
             </div>
         </header>
     )

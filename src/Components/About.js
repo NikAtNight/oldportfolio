@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section>
-
+        <section className="page-container">
+            Hello
         </section>
     )
 }
