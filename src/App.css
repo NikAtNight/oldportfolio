@@ -1,3 +1,5 @@
+/* Navigation */
+
 .nav {
     width: 100vw;
     height: 56px;
@@ -41,8 +43,10 @@
 }
 
 .active-link{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #76b4bd;
 }
+
+/* Page Content */
 
 .container {
     max-width: 70vw;
@@ -53,10 +57,34 @@
     height: 100vh;
 }
 
+.landing-style {
+    height: 100vh;
+    /* background: linear-gradient(to right, #175873 0%,#175873 55%,#87aca3 45%,#87aca3 100%); */
+    /* background: linear-gradient(to right, #2f5061 0%,#2f5061 55%,#f4eae6 45%,#f4eae6 100%); */
+    /* background: linear-gradient(to right, #778a35 0%,#778a35 55%,#d1e2c4 45%,#d1e2c4 100%); */
+    background: linear-gradient(to right, #76b4bd 0%,#76b4bd 56%,#ebf4f6 44%,#ebf4f6  100%);
+}
+
+
 .content-container {
     margin: 0 auto;
     position: relative;
     height:75%;
-    border: 1px solid black;
     top:12.5%;
+    display: flex;
+}
+
+/* Landing */
+
+.landing-content {
+    width: 100%;
+    text-align: center;
+}
+
+.landing-content h1 {
+    background: linear-gradient(to right, #ebf4f6 0%,#ebf4f6 57%,#76b4bd 45%,#76b4bd  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 72px;
 }

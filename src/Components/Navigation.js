@@ -51,7 +51,7 @@ const Navigation = () => {
                             smooth={true}
                             duration={500}
                             className='scroll-links'
-                            activeClass='some-active-class'
+                            activeClass='active-link'
                         >
                             Work
                         </Link>
@@ -63,7 +63,7 @@ const Navigation = () => {
                             smooth={true}
                             duration={500}
                             className='scroll-links'
-                            activeClass='some-active-class'
+                            activeClass='active-link'
                         >
                             Contact
                         </Link>
