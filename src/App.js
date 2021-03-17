@@ -1,11 +1,12 @@
 import React from 'react';
-import Landing from './Components/Landing';
-import About from './Components/About';
-import Work from './Components/Work';
-import Contact from './Components/Contact';
-import Navigation from './Components/Navigation';
+import Landing from './components/Landing';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Navigation from './components/Navigation';
 import './App.css'
 import { Element } from 'react-scroll';
+import Home from './components/Home';
 
 class App extends React.Component {
   state = {
@@ -26,7 +27,8 @@ class App extends React.Component {
     return (
       <>
         <Navigation />
-        <Element id="home" name="home">
+        <Home/>
+        {/* <Element id="home" name="home">
           <Landing />
         </Element>
         <Element id="about" name="about">
@@ -37,7 +39,7 @@ class App extends React.Component {
         </Element>
         <Element id="contact" name="contact">
           <Contact />
-        </Element>
+        </Element> */}
       </>
     )
   }
