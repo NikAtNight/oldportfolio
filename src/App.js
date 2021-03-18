@@ -27,19 +27,24 @@ class App extends React.Component {
     return (
       <>
         <Navigation />
-        <Home/>
-        {/* <Element id="home" name="home">
-          <Landing />
-        </Element>
-        <Element id="about" name="about">
-          <About />
-        </Element>
-        <Element id="work" name="work">
-          <Work />
-        </Element>
-        <Element id="contact" name="contact">
-          <Contact />
-        </Element> */}
+        <div className="big-device">
+          <Home />
+        </div>
+        <div className="small-device">
+          <Element id="home" name="home">
+            <Landing />
+          </Element>
+          <Element id="about" name="about">
+            <About />
+          </Element>
+          <Element id="work" name="work">
+            <Work />
+          </Element>
+          <Element id="contact" name="contact">
+            <Contact />
+          </Element>
+        </div>
+
       </>
     )
   }
