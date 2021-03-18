@@ -1,0 +1,98 @@
+.home-container {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.row:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.open-column {
+    float: left;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+    transition: 0.5s;
+}
+
+.open-button-container {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.open-button-container button {
+    transform: rotate(-90deg);
+}
+
+
+.open-content {
+    display: block;
+}
+
+.closed-content {
+    display: none;
+}
+
+.closed-column {
+    float: left;
+    width: 10%;
+    height: 100vh;
+    position: relative;
+    transition: 0.5s;
+}
+
+.closed-button-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.closed-button-container button {
+    transform: rotate(-90deg);
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18pt;
+    background:#adb5bd;
+    color: #333533;
+    animation: buttonFade ease 0.8s;
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.closed-button-container button:hover {
+    background:#e8ddb5;
+ }
+
+@keyframes buttonFade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#home {
+    background: #666a86;
+}
+
+#about {
+    background: #788aa3;
+}
+
+#work {
+    background: #92b6b1;
+}
+
+#contact {
+    background: #b2c9ab;
+}

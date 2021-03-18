@@ -1,15 +1,16 @@
 import React from 'react';
-import About from './About';
-import Contact from './Contact';
-import Landing from './Landing';
-import Work from './Work';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Landing from '../Landing/Landing';
+import Work from '../Work/Work';
+import './home.css'
 
 class Home extends React.Component {
     state = {
-        home: "0. Home",
-        about: "1. About",
-        work: "2. Work",
-        contact: "3. Contact"
+        home: "Home",
+        about: "About",
+        work: "Work",
+        contact: "Contact"
     }
 
     handleClick = (event) => {
@@ -18,22 +19,22 @@ class Home extends React.Component {
         document.getElementsByClassName('open-column')[0].className = 'closed-column';
         let val = event.target.value;
         switch (val) {
-            case "0. Home":
+            case "Home":
                 document.getElementById('home').className = 'open-column';
                 document.getElementById('home').childNodes[0].className = "open-button-container";
                 document.getElementById('home').childNodes[1].className = "open-content";
                 break;
-            case "1. About":
+            case "About":
                 document.getElementById('about').className = 'open-column';
                 document.getElementById('about').childNodes[0].className = "open-button-container";
                 document.getElementById('about').childNodes[1].className = "open-content";
                 break;
-            case "2. Work":
+            case "Work":
                 document.getElementById('work').className = 'open-column';
                 document.getElementById('work').childNodes[0].className = "open-button-container";
                 document.getElementById('work').childNodes[1].className = "open-content";
                 break;
-            case "3. Contact":
+            case "Contact":
                 document.getElementById('contact').className = 'open-column';
                 document.getElementById('contact').childNodes[0].className = "open-button-container";
                 document.getElementById('contact').childNodes[1].className = "open-content";

@@ -1,0 +1,13 @@
+.work {
+    font-size: 30rem;
+    padding: 0;
+    margin: auto;
+    /* font-style: italic; */
+    font-family: Oswald; 
+    color: #9cc1bc;
+}
+
+.work-continer {
+    height: 100%;
+    width: 100%;
+}

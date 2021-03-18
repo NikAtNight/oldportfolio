@@ -1,0 +1,89 @@
+.landing-style {
+    height: 100vh;
+}
+
+.background-font {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hello {
+    font-size: 40rem;
+    padding: 0;
+    margin: 0 auto;
+    color: #70748e;
+    /* font-style: italic; */
+    font-family: Oswald; 
+}
+
+.landing-content {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Staatliches;
+    /* padding-left: 5%; */
+}
+
+
+
+.landing-content h3 {
+    color: #ebf4f6;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+}
+
+.landing-content h2 {
+    color: #ebf4f6;
+    font-size: 6rem;
+    margin: 0;
+    word-spacing: 10px;
+}
+
+.landing-content h5 {
+    /* background: linear-gradient(to right, #ebf4f6 0%,#ebf4f6 57%,#76b4bd 45%,#76b4bd  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #adb5bd;
+    font-size: 2rem;
+    margin-bottom: 5;
+    word-spacing: 10px;
+    margin-top: 30px;
+}
+
+.landing-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    width:20%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.landing-content ul li a {
+    color: #adb5bd;
+}
+
+.icon:hover {
+    color: #e8ddb5;
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
+.landing-content ul li a:visited {
+    color: #adb5bd;
+}

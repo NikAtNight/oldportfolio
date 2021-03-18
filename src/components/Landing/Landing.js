@@ -3,7 +3,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-
+import './landing.css'
 
 const Landing = () => {
     return (
@@ -11,7 +11,7 @@ const Landing = () => {
             <div className="container">
                 <div className="page-container">
                     <div className="content-container">
-                        <div className="hello-container">
+                        <div className="background-font animate__animated animate__fadeIn">
                             <h1 className="hello"> hello </h1>
                         </div>
                         <div className="landing-content">

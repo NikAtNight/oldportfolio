@@ -1,12 +1,12 @@
 import React from 'react';
-import Landing from './components/Landing';
-import About from './components/About';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Navigation from './components/Navigation';
+import Landing from './components/Landing/Landing';
+import About from './components/About/About';
+import Work from './components/Work/Work';
+import Contact from './components/Contact/Contact';
+import Navigation from './components/Navigation/Navigation';
 import './App.css'
 import { Element } from 'react-scroll';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 
 class App extends React.Component {
   state = {
