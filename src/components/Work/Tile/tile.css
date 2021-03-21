@@ -1,0 +1,78 @@
+.tile-container {
+    position: relative;
+    width: 300px;
+    height: 37px;
+    background: #86a5a1;
+    border: 5px solid #7b9995;
+    border-radius: 2.5rem;
+    opacity: 0.3;
+    filter: drop-shadow(0 0 0.75rem black);
+    padding: 5px 30px 40px 30px;
+    transition: 0.3s;
+    text-align: justify;
+    color: white;
+}
+
+.tile-content {
+    display: none;
+}
+
+.tile-container:hover {
+    opacity: 1;
+    height: 260px;
+    transition: 0.5s;
+}
+
+.tile-container:hover > .tile-content {
+    display: block;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
+.title-animate {
+    text-align: center;
+}
+
+.anchor-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.anchor-container a {
+    border: 3px solid #7b9995;
+    color: white;
+    padding: 5px 2px 5px 2px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.anchor-container a:hover {
+    background: #7b9995;
+}
+
+.lang-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+
+.lang-list li {
+    line-height: 15px;
+    padding-right: 10px;
+    font-size: 10pt;
+}
+
+.lang-color {
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    float:left;
+    margin-right: 5px;
+}

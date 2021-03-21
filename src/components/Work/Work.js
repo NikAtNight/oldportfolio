@@ -1,4 +1,5 @@
 import React from 'react';
+import Tile from './Tile/Tile';
 import './work.css'
 
 const Work = () => {
@@ -10,7 +11,26 @@ const Work = () => {
                         <h1 className="work"> work </h1>
                     </div>
                     <div className="work-container">
-                        
+                        <div className="column-grid">
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                            <div className="grid-item">
+                                <Tile />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

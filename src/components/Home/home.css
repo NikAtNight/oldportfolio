@@ -70,6 +70,7 @@
     animation: buttonFade ease 0.8s;
     font-family: Oswald;
     font-weight: 500;
+    padding-bottom: 5px;
 }
 
 .closed-button-container button:hover {

@@ -7,7 +7,21 @@
     color: #9cc1bc;
 }
 
-.work-continer {
+.work-container {
     height: 100%;
     width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.column-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    margin: 0 auto;
 }

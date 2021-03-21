@@ -1,6 +1,12 @@
 .container {
     max-width: 70vw;
     margin: 0 auto;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .page-container {
@@ -20,6 +26,15 @@
 }
 .animate__animated.animate__fadeInUp{
     --animate-duration: 2s;
+}
+
+
+.background-font {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 .big-device {
