@@ -3,7 +3,7 @@
 }
 
 .hello {
-    font-size: 40rem;
+    font-size: 32vw;
     padding: 0;
     margin: 0 auto;
     color: #70748e;
@@ -16,13 +16,11 @@
     top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
     text-align: center;
     font-family: Staatliches;
     /* padding-left: 5%; */
 }
-
-
 
 .landing-content h3 {
     color: #ebf4f6;
@@ -73,4 +71,46 @@
 
 .landing-content ul li a:visited {
     color: #adb5bd;
+}
+
+@media screen and (max-width: 1165px){ 
+    .hello {
+        font-size: 50vw;
+    }
+
+    .landing-content {
+        width: 100%;
+    }
+
+    .landing-content h3 {
+        font-size: 4rem;
+    }
+    
+    .landing-content h2 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .landing-content h3 {
+        font-size: 4rem;
+    }
+    
+    .landing-content h2 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .landing-content h3 {
+        font-size: 3rem;
+    }
+    
+    .landing-content h2 {
+        font-size: 4.5rem;
+    }
+
+    .landing-content ul {
+        width:40%;
+    }
 }

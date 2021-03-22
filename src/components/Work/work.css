@@ -1,5 +1,5 @@
 .work {
-    font-size: 30rem;
+    font-size: 24vw;
     padding: 0;
     margin: auto;
     /* font-style: italic; */
@@ -24,4 +24,10 @@
 .grid-item {
     padding: 20px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1165px){ 
+    .work {
+        font-size: 32vw;
+    }
 }

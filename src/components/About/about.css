@@ -1,14 +1,49 @@
 .about {
-    font-size: 30rem;
+    font-size: 24vw;
     padding: 0;
     margin: auto;
     color: #8396af;
-    /* font-style: italic; */
     font-family: Oswald; 
 }
 
 .about-container {
     position: absolute;
     width: 100%;
-    height: 100%
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.about-container h1 {
+    font-size: 32pt;
+    font-family: Oswald;
+}
+
+.about-layout {
+    display: flex;
+}
+
+.about-content {
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.recent-techs ul{
+    display: inline-block
+}
+
+.about-picture {
+    margin-right: auto;
+    width: 20%;
+}
+
+.about-picture img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1165px){
+    .about {
+        font-size: 32vw;
+    }
 }

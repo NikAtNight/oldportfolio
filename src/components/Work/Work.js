@@ -10,7 +10,7 @@ const Work = () => {
                     <div className="background-font animate__animated animate__fadeIn">
                         <h1 className="work"> work </h1>
                     </div>
-                    <div className="work-container">
+                    <div className="work-container animate__animated animate__fadeIn">
                         <div className="column-grid">
                             <div className="grid-item">
                                 <Tile />

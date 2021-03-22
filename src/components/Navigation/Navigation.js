@@ -30,7 +30,7 @@ const Navigation = () => {
                             className='scroll-links'
                             activeClass='active-link'
                         >
-                            0. Home
+                            Home
                         </Link>
                     </li>
                     <li>
@@ -42,7 +42,7 @@ const Navigation = () => {
                             className='scroll-links'
                             activeClass='active-link'
                         >
-                            1. About
+                            About
                         </Link>
                     </li>
                     <li>
@@ -54,7 +54,7 @@ const Navigation = () => {
                             className='scroll-links'
                             activeClass='active-link'
                         >
-                            2. Work
+                            Work
                         </Link>
                     </li>
                     <li>
@@ -66,7 +66,7 @@ const Navigation = () => {
                             className='scroll-links'
                             activeClass='active-link'
                         >
-                            3. Contact
+                            Contact
                         </Link>
                     </li>
                 </ul>

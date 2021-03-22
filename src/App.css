@@ -46,7 +46,11 @@
 }
 
 
-@media screen and (max-width: 999px){
+@media screen and (max-width: 1165px){
+    .container {
+        width: 90vw !important;
+    }
+    
     .big-device {
         display: none;
     }

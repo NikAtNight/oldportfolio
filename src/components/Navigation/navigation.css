@@ -35,7 +35,7 @@
 .nav-links li {
     text-decoration: none;
     padding: .1em 1em;
-    color: #5e5656;
+    color: white;
     font-weight: 700;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .active-link{
-    border-bottom: 3px solid rgb(118,180,189);
+    border-bottom: 3px solid #fff;
     animation: fadeInBorder ease 0.8s;
 }
 
 @keyframes fadeInBorder {
-    0% {border-bottom: 3px solid rgba(118,180,189,0);}
-    100% {border-bottom: 3px solid rgba(118,180,189,1);}
+    0% {border-bottom: 3px solid rgba(255, 255, 255, 0);}
+    100% {border-bottom: 3px solid rgba(255,255,255,1);}
 }
