@@ -30,4 +30,13 @@
     .work {
         font-size: 32vw;
     }
+
+}
+
+@media screen and (max-width: 810px) { 
+    .column-grid {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
 }

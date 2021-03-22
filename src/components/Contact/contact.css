@@ -48,3 +48,15 @@
         font-size: 32vw;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-container p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-container p {
+        width: 100%;
+    }
+}

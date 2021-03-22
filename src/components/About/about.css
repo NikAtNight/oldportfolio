@@ -7,7 +7,7 @@
 }
 
 .about-container {
-    position: absolute;
+    position: absolute; 
     width: 100%;
     height: 100%;
     text-align: center;
@@ -45,5 +45,24 @@
 @media screen and (max-width: 1165px){
     .about {
         font-size: 32vw;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .about-layout {
+        display: inline-block;
+    }
+
+    .about-content {
+        width: 80%;
+    }
+
+    .about-picture {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .about-container {
+        top: -7.5%;
     }
 }
