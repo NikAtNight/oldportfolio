@@ -20,18 +20,7 @@
 
 .open-button-container {
     display: none;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
 }
-
-.open-button-container button {
-    transform: rotate(-90deg);
-}
-
 
 .open-content {
     display: block;
@@ -59,23 +48,52 @@
 }
 
 .closed-button-container button {
-    transform: rotate(-90deg);
     height: 40px;
     width: 120px;
-    border-radius: 50px;
-    border: none;
     font-size: 18pt;
-    background:#adb5bd;
-    color: #333533;
+    color: white;
     animation: buttonFade ease 0.8s;
     font-family: Oswald;
     font-weight: 500;
     padding-bottom: 5px;
+    line-height: 28px;
 }
 
-.closed-button-container button:hover {
-    background:#e8ddb5;
- }
+.home-button {
+    background:#666a86;
+    border: 3px solid #565a72; 
+}
+
+.home-button:hover {
+    background:#565a72;
+}
+
+.about-button {
+    background:#788aa3;
+    border: 3px solid #66768b;
+}
+
+.about-button:hover {
+    background:#66768b;
+}
+
+.work-button {
+    background: #92b6b1;
+    border: 3px solid #7b9995;
+}
+
+.work-button:hover {
+    background: #7b9995;
+}
+
+.contact-button {
+    background: #b2c9ab;
+    border: 3px solid #9aad95;
+}
+
+.contact-button:hover {
+    background: #9aad95;
+}
 
 @keyframes buttonFade {
     0% {opacity: 0;}
@@ -96,4 +114,10 @@
 
 #contact {
     background: #b2c9ab;
+}
+
+@media screen and (max-width: 1400px){
+    .closed-button-container button { 
+        width: 100px;
+    }
 }

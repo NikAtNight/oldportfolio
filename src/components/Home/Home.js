@@ -48,7 +48,7 @@ class Home extends React.Component {
                 <div className="row">
                     <div id="home" className="open-column">
                         <div className="open-button-container">
-                            <button onClick={this.handleClick} value={this.state.home}> {this.state.home} </button>
+                            <button onClick={this.handleClick} value={this.state.home} className="home-button"> {this.state.home} </button>
                         </div>
                         <div className="open-content">
                             <Landing />
@@ -56,7 +56,7 @@ class Home extends React.Component {
                     </div>
                     <div id="about" className="closed-column">
                         <div className="closed-button-container">
-                            <button onClick={this.handleClick} value={this.state.about}> {this.state.about} </button>
+                            <button onClick={this.handleClick} value={this.state.about} className="about-button"> {this.state.about} </button>
                         </div>
                         <div className="closed-content">
                             <About />
@@ -64,7 +64,7 @@ class Home extends React.Component {
                     </div>
                     <div id="work" className="closed-column">
                         <div className="closed-button-container">
-                            <button onClick={this.handleClick} value={this.state.work}> {this.state.work} </button>
+                            <button onClick={this.handleClick} value={this.state.work} className="work-button"> {this.state.work} </button>
                         </div>
                         <div className="closed-content">
                             <Work />
@@ -72,7 +72,7 @@ class Home extends React.Component {
                     </div>
                     <div id="contact" className="closed-column">
                         <div className="closed-button-container">
-                            <button onClick={this.handleClick} value={this.state.contact}> {this.state.contact} </button>
+                            <button onClick={this.handleClick} value={this.state.contact} className="contact-button"> {this.state.contact} </button>
                         </div>
                         <div className="closed-content">
                             <Contact />

@@ -21,7 +21,7 @@ const Work = () => {
                             <div className="grid-item">
                                 <Tile />
                             </div>
-                            <div className="grid-item">
+                            {/* <div className="grid-item">
                                 <Tile />
                             </div>
                             <div className="grid-item">
@@ -29,7 +29,7 @@ const Work = () => {
                             </div>
                             <div className="grid-item">
                                 <Tile />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

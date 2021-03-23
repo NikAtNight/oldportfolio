@@ -17,7 +17,7 @@
 
 .column-grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     padding: 10px;
 }
 
@@ -34,9 +34,9 @@
 }
 
 @media screen and (max-width: 810px) { 
-    .column-grid {
+    /* .column-grid {
         display: grid;
         grid-template-columns: auto;
         padding: 10px;
-    }
+    } */
 }
