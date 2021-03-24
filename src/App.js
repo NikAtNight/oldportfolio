@@ -17,6 +17,11 @@ class App extends React.Component {
   //   timeout().then(() => this.setState({ loading: false }))
   // }
 
+  closeDrawer = () => {
+    let drawer = document.getElementById('drawer');
+    drawer.style.transform = "translate(250px)";
+}
+
   render() {
     // const { loading } = this.state;
 
@@ -30,7 +35,7 @@ class App extends React.Component {
         <div className="big-device">
           <Home />
         </div>
-        <div className="small-device">
+        <div className="small-device" onClick={this.closeDrawer}>
           <Element id="home" name="home">
             <Landing />
           </Element>
