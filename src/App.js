@@ -32,7 +32,7 @@ class App extends React.Component {
     return (
       <>
         <Navigation />
-        <div className="big-device">
+        <div className="big-device" >
           <Home />
         </div>
         <div className="small-device" onClick={this.closeDrawer}>

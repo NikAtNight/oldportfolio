@@ -62,7 +62,7 @@
     width: 250px;
     z-index: 1001;
     right: 0;
-    background: rgb(158, 158, 158);
+    background: rgb(95, 95, 95);
     position: fixed;
     transform: translate(250px, 0);
     transition: 0.5s;
@@ -76,6 +76,7 @@
     font-size: 16pt;
     font-family: Oswald;
     transform: translate(0, 100%);
+    color: white;
 }
 
 .drawer-list li {

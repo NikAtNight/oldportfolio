@@ -39,6 +39,8 @@ class Home extends React.Component {
                 document.getElementById('contact').childNodes[0].className = "open-button-container";
                 document.getElementById('contact').childNodes[1].className = "open-content";
                 break;
+            default:
+                break;
         }
     }
 

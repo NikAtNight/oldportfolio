@@ -1,7 +1,20 @@
-import React from 'react';
+import React, {useState, useLayoutEffect} from 'react';
 import { Link } from 'react-scroll';
 import './navigation.css'
 import MenuIcon from '@material-ui/icons/Menu';
+
+function useWindowSize() {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+      function updateSize() {
+        setSize([window.innerWidth, window.innerHeight]);
+      }
+      window.addEventListener('resize', updateSize);
+      updateSize();
+      return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+  }
 
 
 function toggleDrawer() {
@@ -15,6 +28,10 @@ function closeDrawer() {
 }
 
 const Navigation = () => {
+    const [width, height] = useWindowSize();
+    if(width <= 768) {
+        closeDrawer();
+    }
     return (
         <>
             <header className="nav">
@@ -84,7 +101,7 @@ const Navigation = () => {
                         </li>
                     </ul>
                     <div className="menuIcon">
-                        <button onClick={() => toggleDrawer()}> <MenuIcon /> </button>
+                        <button onClick={() => toggleDrawer()}> <MenuIcon style={{color:"white"}}/> </button>
                     </div>
                 </div>
             </header>
