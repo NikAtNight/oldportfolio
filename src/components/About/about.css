@@ -7,11 +7,12 @@
 }
 
 .about-container {
-    position: absolute; 
     width: 100%;
     height: 100%;
-    text-align: center;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-container h1 {
@@ -35,6 +36,7 @@
 }
 
 .recent-techs {
+    width: 75%;
     display: flex;
     justify-content: space-around;
 }
@@ -77,6 +79,7 @@
     }
 
     .about-picture {
+        padding-top: 20px;
         margin: 0 auto;
         width: 20%;
     }

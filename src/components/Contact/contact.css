@@ -23,7 +23,7 @@
 }
 
 .contact-container p {
-    font-size: 18pt;
+    font-size: 16pt;
     width: 50%;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
@@ -37,7 +37,7 @@
     font-family: Oswald; 
     font-size: 12pt;
     cursor: pointer;
-    margin-top: 45px;
+    margin-top: 55px;
 }
 
 .contact-container button:hover {

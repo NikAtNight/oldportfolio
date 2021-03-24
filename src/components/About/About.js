@@ -11,7 +11,7 @@ const About = () => {
                         <h1 className="about"> about </h1>
                     </div>
                     <div className="about-container animate__animated animate__fadeIn">
-                        <h1> Me, Myself & I</h1>
+                        {/* <h1> Me, Myself & I</h1> */}
                         <div className="about-layout">
                             <div className="about-content">
                                 <p>
