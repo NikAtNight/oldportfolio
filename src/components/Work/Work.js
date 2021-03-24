@@ -22,7 +22,7 @@ let mistryPort = {
         "https://github.com/AstroNik/mistryportfolio",
         "https://mistry.nikhilkapadia.com"
     ],
-    desc: "This is a project portfolio for my friend who builds 3D models. The website itself is still in progress as more layout changes need to be added. But is running with test project examples.",
+    desc: "This is a project portfolio for my friend who builds 3D models. The website itself is still in progress as more layout changes need to be made. But it is running with test project examples.",
     langs: [
         "React",
         "Node"
@@ -35,7 +35,7 @@ let soilProject = {
         "https://github.com/AstroNik/WebAPI",
         "https://ecoders.nikhilkapadia.com/"
     ],
-    desc: "This school Capstone project is about an Arduino based Soil Moisture Sensor that sends data to a webserver that we created, which then sends data to an application to view mosisture levels. Won 'Sheridan EDGE Ready Award'",
+    desc: "This school Capstone project is about an Arduino based Soil Moisture Sensor that sends data to a webserver that we created, which then sends data to an application to view mosisture levels. Won 'Sheridan EDGE Ready Award'.",
     langs: [
         "C++",
         "React",

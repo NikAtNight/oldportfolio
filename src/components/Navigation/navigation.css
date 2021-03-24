@@ -39,6 +39,15 @@
     font-weight: 700;
 }
 
+.menuIcon {
+    display: none;
+}
+
+.menuIcon button {
+    background: none;
+    border: none;
+}
+
 .scroll-links{
     cursor: pointer;
 }
@@ -48,7 +57,49 @@
     animation: fadeInBorder ease 0.8s;
 }
 
+#drawer {
+    height: 100vh;
+    width: 250px;
+    z-index: 1001;
+    right: 0;
+    background: grey;
+    position: fixed;
+    transform: translate(250px, 0);
+    transition: 0.5s;
+}
+
+
+.drawer-list {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15;
+    font-size: 16pt;
+    font-family: Oswald;
+    transform: translate(0, 100%);
+}
+
+.drawer-list li {
+    padding: 20px;
+}
+
 @keyframes fadeInBorder {
     0% {border-bottom: 3px solid rgba(255, 255, 255, 0);}
     100% {border-bottom: 3px solid rgba(255,255,255,1);}
+}
+
+@media screen and (max-width: 1165px) {
+    .nav-links {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menuIcon {
+        display: inline-block;
+        margin-right: 20px;
+    }
 }

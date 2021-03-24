@@ -24,7 +24,7 @@
 
 .contact-container p {
     font-size: 16pt;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
@@ -58,6 +58,7 @@
 
 @media screen and (max-width: 500px) {
     .contact-container p {
-        width: 100%;
+        text-align: center;
+        width: 80%;
     }
 }
