@@ -15,10 +15,6 @@
     justify-content: center;
 }
 
-.about-container h1 {
-    font-size: 32pt;
-    font-family: Oswald;
-}
 
 .about-layout {
     display: flex;
@@ -69,10 +65,6 @@
     .about-layout {
         display: inline-block;
     }
-    
-    .about-container h1 {
-        margin-bottom: 0;
-    }
 
     .about-content {
         width: 80%;
@@ -96,10 +88,6 @@
 @media screen and (max-width: 580px) {
     .about-container {
         top: -3.5%;
-    }
-
-    .about-container h1 {
-        margin-bottom: 35px;
     }
 
     .about-picture {
