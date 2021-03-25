@@ -65,7 +65,7 @@ class App extends React.Component {
 }
 
 function timeout() {
-  return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+  return new Promise((resolve) => setTimeout(() => resolve(), 4000));
 }
 
 export default App;

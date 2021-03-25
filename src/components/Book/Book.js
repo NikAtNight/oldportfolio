@@ -11,7 +11,7 @@ const Book = () => {
             <div class="page3"></div>
             <div class="page2"></div>
             <div class="page1"></div>
-            <div class="front"> <h1> Me </h1></div>
+            <div class="front"></div>
           </div>
     )
 } 

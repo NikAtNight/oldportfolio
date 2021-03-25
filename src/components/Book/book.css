@@ -4,6 +4,10 @@
     height: 400px;
     cursor: pointer;
     backface-visibility: visible;
+    animation: spin ease-in-out 1.2s;
+    animation-delay: 1.2s;
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 @keyframes spin {
@@ -11,7 +15,7 @@
         transform: rotateZ(0deg);
     }
     to {
-        transform: rotateZ(360deg);
+        transform: rotateZ(720deg);
     }
 }
   
@@ -32,7 +36,7 @@
 }
 
 .front, .back {
-    background: #8c91b8;
+    background: #92b6b1;
 }
   
 .front, .page1, .page3, .page5 {
@@ -60,7 +64,181 @@
     background: #fdfdfd;
 }
 
-.book:hover .front {
+/*  BOOK ANIMATION  */
+
+.front {
+    animation: frontAnim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes frontAnim {
+    0% {
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-160deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-160deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+
+.page1 {
+    animation: page1Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page1Anim {
+    0% {
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-150deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-150deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+.page2 {
+    animation: page2Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page2Anim {
+    0% {
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-140deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-140deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+.page3 {
+    animation: page3Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page3Anim {
+    0% {
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-130deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-130deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+
+}
+
+.page4 {
+    animation: page4Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page4Anim {
+    0%{
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-50deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-50deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+.page5 {
+    animation: page5Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page5Anim {
+    0%{
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-40deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-40deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+.page6 {
+    animation: page6Anim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes page6Anim {
+    0%{
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-30deg) scale(1.1);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+    60% {
+        transform: rotateY(-30deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+.back {
+    animation: backAnim ease-in-out 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes backAnim {
+    0%{
+        transform: rotateY(0deg) scale(1.1);
+    } 
+    40% {
+        transform: rotateY(-20deg) scale(1.1);
+    }
+    60% {
+        transform: rotateY(-20deg) scale(1.1);
+    }
+    100% {
+        transform: rotateY(-180deg) scale(1.1);
+    }
+}
+
+
+/* BOOK HOVER */
+
+/* .book:hover .front {
     transform: rotateY(-160deg) scale(1.1);
     box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
 } 
@@ -97,4 +275,14 @@
   
 .book:hover .back {
     transform: rotateY(-20deg) scale(1.1);
+} */
+
+@media screen and (max-width: 768px) {
+    .book {
+        height: 200px
+    }
+
+    .front, .back, .page1, .page2, .page3, .page4, .page5, .page6 {
+        width: 150px;
+    }
 }
