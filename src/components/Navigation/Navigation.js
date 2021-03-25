@@ -24,7 +24,9 @@ function toggleDrawer() {
 
 function closeDrawer() {
     let drawer = document.getElementById('drawer');
-    drawer.style.transform = "translate(250px)";
+    if(drawer != null) {
+      drawer.style.transform = "translate(250px)";
+    }
 }
 
 const Navigation = () => {
@@ -106,7 +108,7 @@ const Navigation = () => {
                 </div>
             </header>
             <div id="drawer">
-                <ul class="drawer-list">
+                <ul className="drawer-list">
                     <li>
                         <Link
                             to="home"

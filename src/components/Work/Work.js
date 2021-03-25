@@ -35,7 +35,7 @@ let soilProject = {
         "https://github.com/AstroNik/WebAPI",
         "https://ecoders.nikhilkapadia.com/"
     ],
-    desc: "This school Capstone project is about an Arduino based Soil Moisture Sensor that sends data to a webserver that we created, which then sends data to an application to view mosisture levels. Won 'Sheridan EDGE Ready Award'.",
+    desc: "This was for a school Capstone project, it's about an Arduino based Soil Moisture Sensor that sends data to a webserver that we created, which then sends data to an application to view moisture levels. Won 'Sheridan EDGE Ready Award'.",
     langs: [
         "C++",
         "React",

@@ -7,27 +7,36 @@ import Navigation from './components/Navigation/Navigation';
 import './App.css'
 import { Element } from 'react-scroll';
 import Home from './components/Home/Home';
+import Book from './components/Book/Book';
 
 class App extends React.Component {
   state = {
     loading: true
   }
 
-  // componentDidMount() {
-  //   timeout().then(() => this.setState({ loading: false }))
-  // }
+  componentDidMount() {
+    timeout().then(() => {
+      this.setState({ loading: false })
+    })
+  }
 
   closeDrawer = () => {
     let drawer = document.getElementById('drawer');
-    drawer.style.transform = "translate(250px)";
-}
+    if (drawer != null) {
+      drawer.style.transform = "translate(250px)";
+    }
+  }
 
   render() {
-    // const { loading } = this.state;
+    const { loading } = this.state;
 
-    // if (loading) {
-    //   return null;
-    // }
+    if (loading) {
+      return (
+        <div id="loading-animation">
+          <Book/>
+        </div>
+      )
+    }
 
     return (
       <>

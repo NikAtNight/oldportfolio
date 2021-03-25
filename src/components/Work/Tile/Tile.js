@@ -2,9 +2,9 @@ import React from 'react';
 import './tile.css'
 
 const Tile = ({ title, url, desc, langs }) => {
-    const mappedLangs = langs && langs.map((lang) => {
+    const mappedLangs = langs && langs.map((lang,index) => {
         return (
-            <li>
+            <li key={index}>
                 {lang}
             </li>
         )
