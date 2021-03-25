@@ -49,8 +49,8 @@
     border-top-right-radius: .5em;
 }
   
-.page1, .page2 { 
-    background: #efefef;
+.page1, .page2, .page5, .page6 { 
+    background: #eceae3;
 }
   
 .page3 {
@@ -61,13 +61,6 @@
     background: linear-gradient(to right,
     #666a86 20%, #666a86 20% 40%, #788aa3 40% 60%, #92b6b1 60% 80%, #b2c9ab 80%);
 }  
-.page5 {
-    background: #fafafa;
-  }
-  
-.page6 {
-    background: #fdfdfd;
-}
 
 /*  BOOK ANIMATION  */
 
