@@ -3,15 +3,15 @@ import './book.css'
 
 const Book = () => {
     return (
-        <div class="book">
-            <div class="back"></div>
-            <div class="page6"></div>
-            <div class="page5"></div>
-            <div class="page4"></div>
-            <div class="page3"></div>
-            <div class="page2"></div>
-            <div class="page1"></div>
-            <div class="front"></div>
+        <div className="book">
+            <div className="back"></div>
+            <div className="page6"></div>
+            <div className="page5"></div>
+            <div className="page4"></div>
+            <div className="page3"></div>
+            <div className="page2"></div>
+            <div className="page1"></div>
+            <div className="front"></div>
           </div>
     )
 } 

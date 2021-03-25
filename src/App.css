@@ -6,7 +6,6 @@
     align-items: center;
     perspective: 1200px;
     background: #ccc;
-    background: #666a86;
 }
 
 
@@ -40,7 +39,6 @@
 .animate__animated.animate__fadeInUp{
     --animate-duration: 2s;
 }
-
 
 .background-font {
     position: absolute;

@@ -58,7 +58,6 @@ class App extends React.Component {
             <Contact />
           </Element>
         </div>
-
       </>
     )
   }

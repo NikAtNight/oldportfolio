@@ -1,0 +1,52 @@
+[
+    {
+    "title": "Old Portfolio",
+    "url": [
+            "https://github.com/AstroNik/nkwebapp",
+            "https://oldsite.nikhilkapadia.com"
+        ],
+    "desc": "The first version of my website where my frontend is built with React and I build my backend with Go hosted on DigitalOcean running in a Kubernetes cluster.",
+    "langs": [
+            "React",
+            "Go"
+        ]
+    },
+    {
+    "title": "Mistry3Designs",
+    "url": [
+            "https://github.com/AstroNik/mistryportfolio",
+            "https://mistry.nikhilkapadia.com"
+        ],
+    "desc": "This is a project portfolio for my friend who builds 3D models. The website itself is still in progress as more layout changes need to be made. But it is running with test project examples.",
+    "langs": [
+            "React",
+            "Node"
+        ]
+    },
+    {
+    "title": "Ecoders Moisture Sensor",
+    "url": [
+            "https://github.com/AstroNik/WebAPI",
+            "https://ecoders.nikhilkapadia.com/"
+        ],
+    "desc": "This was for a school Capstone project, it's about an Arduino-based Soil Moisture Sensor that sends data to a webserver that we created, which then sends data to an application to view moisture levels. Won 'Sheridan EDGE Ready Award'.",
+    "langs": [
+            "C++",
+            "React",
+            "Go",
+            "Kotlin"
+        ]
+    },
+    {
+    "title": "Blog",
+    "url": [
+            "https://github.com/AstroNik/blog",
+            "https://blog.nikhilkapadia.com"
+        ],
+    "desc": "This is a personal blog I created to post useful information about using certain libraries and frameworks that helped me in my process of creating my work. For example, connecting Node with DigitalOcean Spaces.",
+    "langs": [
+            "VueJS",
+            "Node"
+        ]
+    }
+]

@@ -2,7 +2,6 @@
     font-size: 24vw;
     padding: 0;
     margin: auto;
-    /* font-style: italic; */
     font-family: Oswald; 
     color: #9cc1bc;
 }
@@ -17,8 +16,9 @@
 
 .column-grid {
     display: grid;
-    grid-template-columns: auto;
-    padding: 10px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 100px;
 }
 
 .grid-item {
@@ -33,10 +33,10 @@
 
 }
 
-@media screen and (max-width: 810px) { 
-    /* .column-grid {
+@media screen and (max-width: 865px) { 
+    .column-grid {
         display: grid;
         grid-template-columns: auto;
-        padding: 10px;
-    } */
+        padding: 0;
+    }
 }
