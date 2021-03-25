@@ -1,7 +1,7 @@
 .book {
     transform-style: preserve-3d;
     position: relative;
-    height: 400px;
+    height: 150px;
     cursor: pointer;
     backface-visibility: visible;
     animation: spin ease-in-out 1.2s;
@@ -22,7 +22,7 @@
 .front, .back, .page1, .page2, .page3, .page4, .page5, .page6 {
     transform-style: preserve-3d;
     position: absolute;
-    width: 300px;
+    width: 100px;
     height: 100%;
     top: 0; left: 0;
     transform-origin: left center;
@@ -276,13 +276,3 @@
 .book:hover .back {
     transform: rotateY(-20deg) scale(1.1);
 } */
-
-@media screen and (max-width: 768px) {
-    .book {
-        height: 200px
-    }
-
-    .front, .back, .page1, .page2, .page3, .page4, .page5, .page6 {
-        width: 150px;
-    }
-}
