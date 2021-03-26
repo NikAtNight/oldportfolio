@@ -46,7 +46,6 @@ const Navigation = () => {
                             duration={500}
                             className='scroll-links'
                         >
-                            <img src="" alt="logo"/>
                         </Link>
                     </div>
                 </div>

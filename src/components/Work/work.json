@@ -3,7 +3,7 @@
     "title": "Old Portfolio",
     "url": [
             "https://github.com/AstroNik/nkwebapp",
-            "https://oldsite.nikhilkapadia.com"
+            "https://oldportfolio.nikhilkapadia.com"
         ],
     "desc": "The first version of my website where my frontend is built with React and I build my backend with Go hosted on DigitalOcean running in a Kubernetes cluster.",
     "langs": [
