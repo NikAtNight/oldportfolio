@@ -30,7 +30,7 @@ function closeDrawer() {
 }
 
 const Navigation = () => {
-    const [width, height] = useWindowSize();
+    const [width] = useWindowSize();
     if(width <= 768) {
         closeDrawer();
     }
@@ -45,9 +45,8 @@ const Navigation = () => {
                             smooth={true}
                             duration={500}
                             className='scroll-links'
-                            activeClass='active-link'
                         >
-                            <img src="" />
+                            <img src="" alt="logo"/>
                         </Link>
                     </div>
                 </div>
