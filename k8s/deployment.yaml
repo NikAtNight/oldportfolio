@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nk-portfolio
+  labels:
+    app: nk-portfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: nk-portfolio
+  template:
+    metadata:
+      labels:
+        name: nk-portfolio
+    spec:
+      containers:
+        - name: nk-portfolio
+          image: astronik/portfolio:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

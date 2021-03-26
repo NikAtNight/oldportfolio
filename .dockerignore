@@ -1,0 +1,10 @@
+node_modules
+yarn-error.log
+build
+.dockerignore
+build.sh
+Dockerfile
+README.md
+yarn.lock
+.gitignore
+k8s
