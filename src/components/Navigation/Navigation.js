@@ -2,6 +2,7 @@ import React, {useState, useLayoutEffect} from 'react';
 import { Link } from 'react-scroll';
 import './navigation.css'
 import MenuIcon from '@material-ui/icons/Menu';
+import logo from './logo.png'
 
 function useWindowSize() {
     const [size, setSize] = useState([0, 0]);
@@ -46,6 +47,7 @@ const Navigation = () => {
                             duration={500}
                             className='scroll-links'
                         >
+                            <img src={logo} alt="logo"/>
                         </Link>
                     </div>
                 </div>
