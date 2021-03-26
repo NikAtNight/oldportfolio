@@ -19,4 +19,4 @@ spec:
           image: astronik/portfolio:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 3000
