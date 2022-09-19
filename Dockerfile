@@ -1,13 +1,12 @@
-FROM node:latest
-
-RUN mkdir /app
+FROM arm32v7/node:12.16.1
 
 WORKDIR /app
 
 COPY package.json .
+
 RUN npm install
 
-COPY . .
+COPY . ./
 
 EXPOSE 3000
 
